@@ -79,7 +79,7 @@ public class ManageController : Controller
         }
 
         var email = user.Email;
-        if (model.Email != email)
+        if (model.Email.ToUpper() != email.ToUpper())
         {
             var setEmailResult = await _userManager.SetEmailAsync(user, model.Email);
             if (!setEmailResult.Succeeded)
