@@ -6,7 +6,7 @@ using Microsoft.eShopWeb.Infrastructure.Identity;
 using Microsoft.eShopWeb.PublicApi.AuthEndpoints;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+//
 namespace Microsoft.eShopWeb.FunctionalTests.PublicApi;
 
 public class TestApiApplication : WebApplicationFactory<AuthenticateEndpoint>
