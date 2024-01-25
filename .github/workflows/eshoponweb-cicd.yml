@@ -11,7 +11,7 @@ env:
   SUBSCRIPTION-ID: 58d7d3e7-40be-45cb-b0c6-dd2f8ae37e6a
   WEBAPP-NAME: az400-webapp-RIMBIK
 
-
+#
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
